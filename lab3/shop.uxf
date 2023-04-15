@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>150</y>
+      <w>180</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>main.domain::Customer
+--
+-id: Long
+-firstName: String
+-lastName: String
+-email: String
+-address: String
+-age: int
+--
++Customer(Long id, String firstName, String lastName, String email, String address, int age): ctor
++getId(): Long
++setId(Long id): void
++getFirstName(): String
++setFirstName(String firstName): void
++getLastName(): String
++setLastName(String lastName): void
++getEmail(): String
++setEmail(String email): void
++getAddress(): String
++setAddress(String address): void
++getAge(): int
++setAge(int age): void
++equals(Object obj): boolean
++toString(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
